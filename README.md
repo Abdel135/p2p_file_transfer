@@ -81,7 +81,7 @@ r6W4QLOB1jxq3/EkNg41C2VrKjkp
 ```
 
 
-To generate random directories with random files for additional peers (in case you want create another scenario) run **rand.sh** where <arg1> <arg2> are the number of dirs and the number of files per dir respectively 
+To generate random directories with random files for additional peers (in case you want create another scenario) run **rand.sh** where <arg1> <arg2> are the number of dirs and the number of files per dir respectively.
 
 ```console
 foo@bar:~$ bash rand.sh <arg1> <arg2>
