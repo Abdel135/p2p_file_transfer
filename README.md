@@ -37,3 +37,6 @@ foo@bar:~$ java Server P4 127.0.0.4 4444 peer4 < n4
 window-5
 foo@bar:~$ java Server P5 127.0.0.99 9999 peer5 < n5
 ```
+
+#### then on a separate new window run *SyntaxAnalyser* to interact with the system 
+#### first connect to the public peer with the 'connect_with' command then you can start using other like *ask_name*, *download*, ...
