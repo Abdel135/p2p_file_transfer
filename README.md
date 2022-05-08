@@ -40,3 +40,24 @@ foo@bar:~$ java Server P5 127.0.0.99 9999 peer5 < n5
 
  then on a separate new window run **SyntaxAnalyser** to interact with the system 
  first connect to the public peer with the **connect_with** command then you can start using other like **ask_name**, **download**, ...
+
+```console
+abdel@msi:~/projet_java$ javac SyntaxtAnalyser.java 
+abdel@msi:~/projet_java$ java SyntaxAnalyser 
+
+  ==> public peer to join the network : IP:127.0.0.99 PORT:9999  
+  ==> type 'connect_with' <IP> <PORT>  
+  ==> type 'help' to view all commands 
+
+>>connect_with 127.0.0.99 9999
+P1[127.0.0.1] connected to 127.0.0.99
+
+>>download file-p0-00
+Voila!! here is file-p0-00
+receiving file ... 
+	===== START OF FILE ======
+JRZqTxjrvqSOOCiU9Km965gIpEyxV/tRfH9
+	===== END OF FILE  =======
+
+>>
+```
