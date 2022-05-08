@@ -42,7 +42,6 @@ foo@bar:~$ java Server P5 127.0.0.99 9999 peer5 < n5
  first connect to the public peer with the **connect_with** command then you can start using other like **ask_name**, **download**, ...
 
 ```console
-abdel@msi:~/projet_java$ javac SyntaxtAnalyser.java 
 abdel@msi:~/projet_java$ java SyntaxAnalyser 
 
   ==> public peer to join the network : IP:127.0.0.99 PORT:9999  
