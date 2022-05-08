@@ -1,7 +1,7 @@
 ### p2p_file_transfer
 
 
- To run the system you'll have to launch a number of peer process independently (preferably one process per terminal window)
+ To run the system you'll have to launch a number of peer processes independently (preferably one process per terminal window)
      ech time you creeat a new peer process you'll have to provide a list of arguments such as IP, PORT ... and the list of initialy know pee
      here is a scenario that you can try 
      first we'll create 5 peers p0, p2, p3, p4, p5
