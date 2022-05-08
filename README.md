@@ -1,16 +1,15 @@
 ### p2p_file_transfer
 
 
-#### To run the system you'll have to launch a number of peer process independently (preferably one process per terminal window)
-### ech time you creeat a new peer process you'll have to provide a list of arguments such as IP, PORT ... and the list of initialy know peers
-
-#### here is a scenario that you can try 
-#### first we'll create 5 peers p0, p2, p3, p4, p5
-#### note that we are reading the input for know peer from a text file (optional) which you can edit and add 'done' at the end 
-#### the argument after port number (peer0 for ex) represents the directory in which the peer stores its local files
-
+ To run the system you'll have to launch a number of peer process independently (preferably one process per terminal window)
+     ech time you creeat a new peer process you'll have to provide a list of arguments such as IP, PORT ... and the list of initialy know pee
+     here is a scenario that you can try 
+     first we'll create 5 peers p0, p2, p3, p4, p5
+     note that we are reading the input for know peer from a text file (optional) which you can edit and add 'done' at the end 
+     the argument after port number (peer0 for ex) represents the directory in which the peer stores its local files
+    
 #### first compile all java files 
-```console
+
 window-1
 foo@bar:~$ javac *.java
 ```
