@@ -36,7 +36,7 @@ foo@bar:~$ java Server P4 127.0.0.4 4444 peer4 < n4
 window-5
 foo@bar:~$ java Server P5 127.0.0.99 9999 peer5 < n5
 ```
-The class server is just a class to initialize peer to listen to incoming requests and doesn't mean that the system is centralized through a server
+The class server is just a class to initialize peer to listen to incoming requests and doesn't mean that the system is centralized through a server.
 
 
  Then on a separate new window run **SyntaxAnalyser** to interact with the system.
