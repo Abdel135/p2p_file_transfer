@@ -8,12 +8,12 @@
      note that we are reading the input for know peer from a text file (optional) which you can edit and add 'done' at the end 
      the argument after port number (peer0 for ex) represents the directory in which the peer stores its local files
     
-#### first compile all java files 
+#### first compile all java files.
 ```console
 window-1
 foo@bar:~$ javac *.java
 ```
-open 5 different terminal windows to run the scenario described above
+Open 5 different terminal windows to run the scenario described above.
 
 ```console
 window-1
@@ -37,9 +37,9 @@ window-5
 foo@bar:~$ java Server P5 127.0.0.99 9999 peer5 < n5
 ```
 
- then on a separate new window run **SyntaxAnalyser** to interact with the system 
- first connect to the public peer with the **connect_with** command then you can start using other like **ask_name**, **download**, ...
- if everything goes well you should see this interface
+ Then on a separate new window run **SyntaxAnalyser** to interact with the system.
+ First connect to the public peer with the **connect_with** command then you can start using other commands like **ask_name**, **download**, ...
+ If everything goes well you should see this interface : 
 
 ```console
 abdel@msi:~/projet_java$ java SyntaxAnalyser 
@@ -58,5 +58,21 @@ receiving file ...
 JRZqTxjrvqSOOCiU9Km965gIpEyxV/tRfH9
 	===== END OF FILE  =======
 
+>>download file-p5-03
+
+looking for file-p5-03 in 127.0.0.2
+P1[127.0.0.1] connected to 127.0.0.2
+looking for file-p5-03 in 127.0.0.3
+P1[127.0.0.1] connected to 127.0.0.3
+looking for file-p5-03 in 127.0.0.5
+P1[127.0.0.1] connected to 127.0.0.5
+
+Voila!! here is file-p5-03
+receiving file ... 
+	===== START OF FILE ======
+r6W4QLOB1jxq3/EkNg41C2VrKjkp
+	===== END OF FILE  =======
+
 >>
+
 ```
