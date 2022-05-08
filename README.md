@@ -8,6 +8,13 @@
 #### first we'll create 5 peers p0, p2, p3, p4, p5
 #### note that we are reading the input for know peer from a text file (optional) which you can edit and add 'done' at the end 
 #### the argument after port number (peer0 for ex) represents the directory in which the peer stores its local files
+
+#### first compile all java files 
+```console
+window-1
+foo@bar:~$ javac *.java
+```
+
 ```console
 window-1
 foo@bar:~$ java Server P0 127.0.0.99 9999 peer0 < n0
