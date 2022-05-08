@@ -15,6 +15,7 @@ window-1
 foo@bar:~$ javac *.java
 ```
 
+open 5 different terminal windows to run the scenario described above
 ```console
 window-1
 foo@bar:~$ java Server P0 127.0.0.99 9999 peer0 < n0
